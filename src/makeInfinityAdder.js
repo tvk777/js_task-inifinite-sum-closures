@@ -4,7 +4,7 @@
  * @return {function}
  */
 /* eslint no-console: ["error", { allow: ["log"] }] */
-function makeInfinityAdder() {
+function makeAdder() {
   let totalResult = 0;
 
   const sum = (a) => {
@@ -24,4 +24,4 @@ function makeInfinityAdder() {
   return sum;
 }
 
-module.exports = makeInfinityAdder;
+module.exports = makeAdder;
